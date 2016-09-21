@@ -1,0 +1,2 @@
+# multinomial
+Homework from college
