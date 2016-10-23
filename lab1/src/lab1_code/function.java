@@ -34,7 +34,7 @@ public class function {
 					}
 				} while (str_new == " ");
 				// System.out.print("Begin to in:");
-				// System.out.print(str_new);
+				// System.out.print(str_new); 
 				w.test = str_new;
 				w.changeto(str_new);
 				w.merge();
