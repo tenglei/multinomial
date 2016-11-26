@@ -10,7 +10,7 @@ public class function {
 		int i=0;
 		String str;
 		way1 w=new way1();
-	//	System.out.print(w.getCurrentPath());
+
 		do
 		{
 			System.out.println("ÇëÑ¡Ôñ¹¦ÄÜ£º");
