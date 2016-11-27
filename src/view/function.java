@@ -9,7 +9,7 @@ public class function {
 		String str_new=" ";
 		int i=0;
 		String str;
-		
+		way1 w=new way1();
 		do
 		{
 			System.out.println("ÇëÑ¡Ôñ¹¦ÄÜ£º");
