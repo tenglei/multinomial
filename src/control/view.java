@@ -1,11 +1,14 @@
 package control;
 
 import java.util.Vector;
+
+import model.way1;
+
 import java.util.Scanner;
 
 public class view {
 	public Vector <Element> ele= new Vector <Element>();
-	
+	way1 w=new way1();
 	public String inp(String str){
 		int len;
 		if(str.length()==0||str=="")

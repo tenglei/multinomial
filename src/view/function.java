@@ -9,8 +9,7 @@ public class function {
 		String str_new=" ";
 		int i=0;
 		String str;
-		way1 w=new way1();
-
+		
 		do
 		{
 			System.out.println("请选择功能：");
@@ -38,8 +37,6 @@ public class function {
 						System.out.print("表达式不符合规范，请重新输入表达式：\n");
 					}
 				}while(str_new==" ");
-				 w.initstring(str_new);
-				 w.changeto(w.test);
 				break;
 			case 2:
 				if(str_new==" ")
@@ -113,11 +110,5 @@ public class function {
 
 
 
-public String expression(String str0)
-{
-	
-	model i_n = new model();
-	String str_1 = i_n.in(str0);
-	return str_1;
-}
+
 }
