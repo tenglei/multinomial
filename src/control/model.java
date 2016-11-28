@@ -10,11 +10,11 @@ public class model {
 	 String w=in.inp(str);
 	 return w;
  }
- public int sim(String str_in){
+ public int sim(String str_in,String str){
 	 ele = in.ele;
-	 return in.simplify(str_in);
+	 return in.simplify(str_in,str);
  }
- public String der(String str_in){
-	 return in.derivative(str_in);
+ public String der(String str_in, String str){
+	 return in.derivative(str_in,str);
  }
 }

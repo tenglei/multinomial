@@ -8,7 +8,7 @@ public class Derivative {
     public String multinomal;
     public String derivativeResult;
     Vector<element> elementgroup = new Vector<element>();
-    Derivative(String c,String s){
+    public Derivative(String c,String s){
 	Standardization stand = new Standardization(c);
 	multinomal=stand.Result();
 	elementgroup = stand.changeto(multinomal);

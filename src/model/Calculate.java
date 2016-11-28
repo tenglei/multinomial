@@ -6,7 +6,7 @@ import control.Element;
 public class Calculate {
     public String multinomal;
     Vector<element> elementgroup = new Vector<element>();
-    Calculate(String c, Vector<Element> sign) {
+    public Calculate(String c, Vector<Element> sign) {
 	Standardization stand = new Standardization(c);
 	multinomal=stand.Result();
 	elementgroup = stand.changeto(multinomal);
