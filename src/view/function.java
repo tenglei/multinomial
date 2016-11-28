@@ -1,8 +1,7 @@
 package view;
 import java.util.Scanner;
-
 import control.model;
-//import model.way1;
+
 public class function {
 
 	public static void main(String[] args) {
@@ -10,7 +9,6 @@ public class function {
 		int i=0;
 		String str = null;
 		String g;
-		//way1 w=new way1();
 		do
 		{
 			System.out.println("ÇëÑ¡Ôñ¹¦ÄÜ£º");
@@ -71,7 +69,13 @@ public class function {
 		}while(i!=-1);
 		
 	}
-
+	public String expression(String str0)
+	{
+		
+		model i_n = new model();
+		String str_1 = i_n.in(str0);
+		return str_1;
+	}
 
 
 
