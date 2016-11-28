@@ -16,7 +16,6 @@ public class view {
 		if(str.length()==0||str=="")
 			return "fail!";
 		char ch=str.charAt(0);
-
 		if(ch<48&&ch!=32&&ch!=9||ch>57&&ch<65||ch>90&&ch<97||ch>122)
 			return "fail!";//可为数字，可为空格制表符，可为大小写字母
 		str.trim();
